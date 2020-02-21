@@ -13,7 +13,7 @@ from selenium.webdriver.common.by import By
 chrome_options = Options()
 chrome_options.add_argument('--headless')
 # tel = input('请输入您要短信轰炸的对象（仅支持亲密友好的对象）:')
-broswer = webdriver.Chrome()
+broswer = webdriver.Chrome(options=chrome_options)
 tel = 13081855970
 
 # 定位,并输入手机号码
@@ -169,7 +169,7 @@ class Spider_tel():
 
     def run(self):
         # 调用
-        # self.TongCheng_com()
+        self.TongCheng_com()
         print("__________________")
         # self.Guazi_com()
         # self.JianShu()

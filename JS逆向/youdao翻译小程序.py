@@ -5,7 +5,7 @@ import hashlib
 import tkinter as tk
 
 # word = input("请输入您要翻译的内容：")
-
+# 视频教学： https://www.bilibili.com/video/av78359263?from=search&seid=11162552017551929747
 def make_md5(string):
     string = string.encode("utf-8")
     md5 = hashlib.md5(string).hexdigest()
@@ -15,13 +15,13 @@ def make_md5(string):
 def  translation():
     """四个js逆向参数"""
     ts = str(int(time.time()*1000))
-    # print(ts)
+    print(ts)
     salt = ts + str(random.randint(0,9))
     # print(salt)
     sign = make_md5("fanyideskweb" + t1.get(0.0,"end")+ salt + "n%A-rKaT5fb[Gy?;N5@Tj")
-    # print(sign)
+    print(sign)
     bv = make_md5("5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36")
-    # print(bv)
+    print(bv)
 
     data = {
         'i':t1.get(0.0,"end"),
@@ -56,17 +56,24 @@ def  translation():
 
     # print(test["translateResult"])
     # print(test["translateResult"][0])
-    t1.delete(0.0,'end')
+    # t1.delete(0.0,'end')
+
     text = test["translateResult"][0][0]["tgt"]
     print(text)
-    t1.insert(0.0,text)
+    t2.insert(0.0,text)
+
+    # t2.insert(0.0, "当前还没有要翻译的内容哦~")
     # return test["translateResult"][0][0]["tgt"]
 
 root = tk.Tk()
 root.geometry("600x400")
-root.title("youdao翻译小程序")
-t1 = tk.Text(root)
+root.title("黄世祥-在线翻译")
+L1 = tk.Label(root, text="在 线 翻 译",height=3)
+L1.pack()
+t1 = tk.Text(root,height=10)
 t1.pack()
-t1_button = tk.Button(root,text="翻 译",width=20,command=translation)
+t1_button = tk.Button(root,text="翻   译",width=20,command=translation)
 t1_button.pack()
+t2 = tk.Text(root,height=10)
+t2.pack()
 root.mainloop()

@@ -4,6 +4,7 @@
 # @Email   : 1178824808@qq.com
 # @File    : demo(1).py
 # @Software: PyCharm
+
 from selenium import webdriver
 import time
 
@@ -12,7 +13,7 @@ import time
 def qq_recive():
     url = 'https://qzone.qq.com/'
     # 构建浏览器对象
-    dr = webdriver.Chrome()
+    dr = webdriver.Firefox()
     # 访问url
     dr.get(url)
     # 首先必须要进入内部框架iframe!!!! #
@@ -37,7 +38,7 @@ def qq_recive():
     dr.close()
     dr.quit()
 
-# qq_recive()
+qq_recive()
 
 
 
@@ -82,9 +83,9 @@ def run():
         browser.close()
 run()
 
-from selenium import webdriver
-
-browser = webdriver.Firefox()
-browser.get('http://www.baidu.com/')
+# from selenium import webdriver
+#
+# browser = webdriver.Firefox()
+# browser.get('http://www.baidu.com/')
 
 

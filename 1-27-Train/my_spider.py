@@ -9,6 +9,7 @@ import time
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
+
 # 设置代理
 proxy = '220.191.64.149'
 chrome_options = Options()
@@ -176,9 +177,9 @@ class Spider_tel():
 
     def run(self):
         # pass
-        # self.TongCheng_com()
+        self.TongCheng_com()
         # self.Guazi_com()
-        self.JianShu()    # 需智能检测！！
+        # self.JianShu()    # 需智能检测！！
         # self.FanKe()    #需要滑块验证(留待解决)
         # self.SuNingYiGou()
         # self.WangyiYun()
