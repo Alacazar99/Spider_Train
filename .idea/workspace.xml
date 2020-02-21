@@ -2,30 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f69731a2-25a8-4eee-bade-a6bd30d9243a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Douyin_App/decode_douyin_fans.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Douyin_App/douyin_db.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Douyin_App/handle_share_web.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Douyin_Video_get/Firefox_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Douyin_Video_get/douyin_movie_get.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Douyin_Video_get/html_foot.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Douyin_Video_get/html_head.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS逆向/正则表达_demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kaoyanbang_App/kaoyanbang_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spider_App/Spider_MT.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spider_App/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spider_App/demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spider_App/meituan_app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spider_App/spider_meishi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spider_App/token.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mitmdump_Test/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1-27-Train/demo(1).py" beforeDir="false" afterPath="$PROJECT_DIR$/1-27-Train/demo(1).py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1-27-Train/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/1-27-Train/geckodriver.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1-27-Train/my_spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/1-27-Train/my_spider.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1-28-Train/my_spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/1-28-Train/my_spider.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS逆向/demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/JS逆向/demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS逆向/youdao翻译小程序.py" beforeDir="false" afterPath="$PROJECT_DIR$/JS逆向/youdao翻译小程序.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kaoyanbang_App/kaoyanbang_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Kaoyanbang_App/kaoyanbang_test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,13 +26,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Douyin_Video_get/douyin_movie_get.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="88">
-              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Kaoyanbang_App/kaoyanbang_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="603">
+              <caret line="36" column="36" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="36" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -165,7 +154,6 @@
         <option value="$PROJECT_DIR$/Spider_App/spider_meishi.py" />
         <option value="$PROJECT_DIR$/Spider_App/Spider_bilibili.py" />
         <option value="$PROJECT_DIR$/Spider_App/handel_mongo.py" />
-        <option value="$PROJECT_DIR$/Kaoyanbang_App/kaoyanbang_test.py" />
         <option value="$PROJECT_DIR$/Douyin_App/douyin_zhanghao.txt" />
         <option value="$PROJECT_DIR$/Douyin_App/handle_share_web.py" />
         <option value="$PROJECT_DIR$/Douyin_App/decode_douyin_fans.py" />
@@ -180,6 +168,7 @@
         <option value="$PROJECT_DIR$/Douyin_Video_get/html_foot.txt" />
         <option value="$PROJECT_DIR$/1-27-Train/my_spider.py" />
         <option value="$PROJECT_DIR$/1-28-Train/my_spider.py" />
+        <option value="$PROJECT_DIR$/Kaoyanbang_App/kaoyanbang_test.py" />
       </list>
     </option>
   </component>
@@ -398,12 +387,12 @@
       <workItem from="1581304358206" duration="4464000" />
       <workItem from="1581578473019" duration="8749000" />
       <workItem from="1581656573041" duration="11821000" />
-      <workItem from="1582030446554" duration="32241000" />
+      <workItem from="1582030446554" duration="33400000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96864000" />
+    <option name="totallyTimeSpent" value="98023000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -418,7 +407,7 @@
     <frame x="546" y="33" width="978" height="758" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26413044" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26413044" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -686,16 +675,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Kaoyanbang_App/kaoyanbang_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="47" column="23" lean-forward="true" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#6#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Douyin_App/handle_share_web.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="111">
@@ -851,9 +830,19 @@
     <entry file="file://$PROJECT_DIR$/Douyin_Video_get/douyin_movie_get.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Kaoyanbang_App/kaoyanbang_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="603">
+          <caret line="36" column="36" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>

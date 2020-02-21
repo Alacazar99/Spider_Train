@@ -2,14 +2,14 @@ import time
 from appium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 
-
+# 请求参数；
 cap = {
 
 }
 
 driver = webdriver.Remote("http://localhost:4723/wd/hub",cap)
 
-
+# 获取尺寸
 def get_size():
     x = driver.get_window_size()["width"]
     y = driver.get_window_size()["height"]
@@ -20,6 +20,7 @@ try:
         driver.find_element_by_class_name("").click()
 except:
     pass
+
 
 try:
     # 输入用户名，密码；
